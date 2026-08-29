@@ -325,6 +325,8 @@ Airbnb-Data-Analysis/
 │
 ├── README.md
 │
+├── Data/
+│
 ├── images/
 │   ├── room_type_distribution.png
 │   ├── top_10_neighbourhoods.png
@@ -333,7 +335,7 @@ Airbnb-Data-Analysis/
 │   ├── reviews_analysis.png
 │   └── availability_analysis.png
 │
-└── presentation/
+└── presentations/
     └── Airbnb_Data_Analysis_Presentation.pptx
 </pre>
 

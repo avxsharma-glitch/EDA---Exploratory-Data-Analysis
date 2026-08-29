@@ -69,12 +69,9 @@ EDA---Exploratory-Data-Analysis/
 ├── Airbnb-Data-Analysis/
 │   ├── Airbnb_Hotel_Booking_Data_Analysis.ipynb
 │   ├── README.md
-│   │
+│   ├── Data/
 │   ├── images/
-│   │
-│   └── presentation/
-│
-└── Future-Projects/
+│   └── presentations/
 </pre>
 
 <hr>
