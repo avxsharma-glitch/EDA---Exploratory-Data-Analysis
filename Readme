@@ -1,234 +1,324 @@
-# Airbnb Data Analysis
+<h1 align="center">🏠 Airbnb Data Analysis</h1>
 
-## Project Overview
+<p align="center">
+  Exploratory Data Analysis of Airbnb Listings using Python
+</p>
 
+<p align="center">
+
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
+
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
+
+  <img src="https://img.shields.io/badge/Google%20Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white" />
+
+</p>
+
+<hr>
+
+<h2>📌 Project Overview</h2>
+
+<p>
 This project performs Exploratory Data Analysis (EDA) on an Airbnb listings dataset.
+The analysis explores patterns in pricing, room types, neighbourhoods,
+customer reviews, property availability, and host characteristics.
+</p>
 
-The analysis focuses on understanding patterns in Airbnb listings, including pricing, room types, neighbourhoods, customer reviews, property availability, and host characteristics.
-
+<p>
 The project was developed using Python and Google Colab.
+</p>
 
----
+<hr>
 
-## Project Objectives
+<h2>🎯 Project Objectives</h2>
 
-The main objectives of this project are to:
+<ul>
+  <li>Understand the structure of the Airbnb dataset</li>
+  <li>Identify and analyze missing values</li>
+  <li>Clean and prepare the dataset for analysis</li>
+  <li>Analyze Airbnb room types</li>
+  <li>Explore pricing patterns</li>
+  <li>Identify neighbourhoods with the highest number of listings</li>
+  <li>Analyze customer reviews</li>
+  <li>Study property availability</li>
+  <li>Compare verified and non-verified hosts</li>
+  <li>Generate meaningful insights through data visualization</li>
+</ul>
 
-- Understand the structure of the Airbnb dataset
-- Identify and handle missing values
-- Clean and prepare the data for analysis
-- Analyze Airbnb room types
-- Explore pricing patterns
-- Identify neighbourhoods with the highest number of listings
-- Analyze customer reviews
-- Study property availability
-- Compare verified and non-verified hosts
-- Generate meaningful insights through data visualization
+<hr>
 
----
+<h2>📊 Dataset Information</h2>
 
-## Dataset Information
+<table>
+  <tr>
+    <th>Metric</th>
+    <th>Details</th>
+  </tr>
 
-The dataset contains Airbnb listing information with the following features:
+  <tr>
+    <td>Total Listings</td>
+    <td><b>102,599</b></td>
+  </tr>
 
-- Listing ID
-- Listing Name
-- Host ID
-- Host Name
-- Host Identity Verification
-- Neighbourhood Group
-- Neighbourhood
-- Latitude
-- Longitude
-- Country
-- Instant Booking Availability
-- Cancellation Policy
-- Room Type
-- Construction Year
-- Price
-- Service Fee
-- Minimum Nights
-- Number of Reviews
-- Last Review
-- Reviews Per Month
-- Review Rating
-- Host Listing Count
-- Availability
-- House Rules
-- License Information
+  <tr>
+    <td>Total Columns</td>
+    <td><b>26</b></td>
+  </tr>
+</table>
 
-### Dataset Size
+<br>
 
-- Total Listings: **102,599**
-- Total Columns: **26**
+<p>The dataset contains information related to:</p>
 
-> Note: The full dataset is not included in this repository due to its file size.
+<ul>
+  <li>Listing details</li>
+  <li>Host information</li>
+  <li>Room types</li>
+  <li>Pricing</li>
+  <li>Neighbourhoods</li>
+  <li>Reviews</li>
+  <li>Availability</li>
+  <li>Cancellation policies</li>
+</ul>
 
----
+<blockquote>
+  Note: The complete dataset is not included in this repository due to file size limitations.
+</blockquote>
 
-## Technologies Used
+<hr>
 
-- Python
-- Google Colab
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
+<h2>🛠️ Technologies Used</h2>
 
----
+<table>
+  <tr>
+    <th>Technology</th>
+    <th>Purpose</th>
+  </tr>
 
-## Project Workflow
+  <tr>
+    <td>Python</td>
+    <td>Data analysis and programming</td>
+  </tr>
 
-### 1. Data Loading
+  <tr>
+    <td>Google Colab</td>
+    <td>Notebook development environment</td>
+  </tr>
 
-The dataset was loaded into Google Colab using Pandas.
+  <tr>
+    <td>Pandas</td>
+    <td>Data manipulation and analysis</td>
+  </tr>
 
-### 2. Dataset Understanding
+  <tr>
+    <td>NumPy</td>
+    <td>Numerical operations</td>
+  </tr>
 
-The dataset structure, columns, data types, and basic statistics were examined.
+  <tr>
+    <td>Matplotlib</td>
+    <td>Data visualization</td>
+  </tr>
 
-### 3. Missing Value Analysis
+  <tr>
+    <td>Seaborn</td>
+    <td>Statistical data visualization</td>
+  </tr>
+</table>
 
-Missing values were identified and analyzed across the dataset.
+<hr>
 
-### 4. Data Cleaning
+<h2>🔄 Project Workflow</h2>
 
-Data cleaning steps included:
+<ol>
+  <li>Import Libraries</li>
+  <li>Upload Dataset</li>
+  <li>Load Dataset</li>
+  <li>Understand Dataset Structure</li>
+  <li>Analyze Missing Values</li>
+  <li>Clean the Data</li>
+  <li>Perform Exploratory Data Analysis</li>
+  <li>Analyze Room Types</li>
+  <li>Analyze Pricing</li>
+  <li>Analyze Locations</li>
+  <li>Analyze Reviews</li>
+  <li>Analyze Availability</li>
+  <li>Analyze Host Characteristics</li>
+  <li>Generate Key Insights</li>
+</ol>
 
-- Checking for missing values
-- Checking duplicate records
-- Cleaning numerical columns
-- Converting relevant columns into appropriate formats
-- Handling missing values
-- Removing or handling unnecessary data
+<hr>
 
-### 5. Exploratory Data Analysis
+<h2>🔍 Analysis Performed</h2>
 
-Exploratory analysis was performed to identify patterns and trends in the Airbnb dataset.
+<h3>🏠 Room Type Analysis</h3>
 
----
+<p>
+The distribution of Airbnb listings was analyzed based on different room types.
+</p>
 
-# Analysis Performed
+<p><b>Key Finding:</b></p>
 
-## Room Type Analysis
+<p>
+🏆 <b>Entire home/apt</b> is the most common room type.
+</p>
 
-The distribution of Airbnb listings was analyzed based on room type.
+<hr>
 
-The room types include:
+<h3>💰 Pricing Analysis</h3>
 
-- Entire home/apt
-- Private room
-- Shared room
-- Hotel room
+<p>
+Airbnb prices were analyzed across different room types and locations.
+</p>
 
-### Key Finding
+<p><b>Key Finding:</b></p>
 
-**Entire home/apt** is the most common room type in the dataset.
+<p>
+🏆 <b>Hotel room</b> has the highest average price among the room types.
+</p>
 
----
+<hr>
 
-## Pricing Analysis
+<h3>📍 Location Analysis</h3>
 
-Airbnb prices were analyzed to understand pricing patterns across different property categories.
-
-### Key Finding
-
-**Hotel room** has the highest average price among the available room types.
-
----
-
-## Location Analysis
-
+<p>
 Neighbourhoods were analyzed based on the number of Airbnb listings.
+</p>
 
-### Key Finding
+<p><b>Key Finding:</b></p>
 
-**Bedford-Stuyvesant** has the highest number of Airbnb listings.
+<ul>
+  <li><b>Bedford-Stuyvesant</b> has the highest number of Airbnb listings.</li>
+  <li><b>Queens</b> has the highest average price among neighbourhood groups.</li>
+</ul>
 
-Neighbourhood groups were also compared based on average price.
+<hr>
 
-### Key Finding
+<h3>⭐ Review Analysis</h3>
 
-**Queens** has the highest average Airbnb price among the neighbourhood groups in this analysis.
+<p>
+Customer engagement was analyzed using:
+</p>
 
----
+<ul>
+  <li>Number of reviews</li>
+  <li>Reviews per month</li>
+  <li>Review ratings</li>
+</ul>
 
-## Review Analysis
+<hr>
 
-Customer review data was analyzed using:
+<h3>📅 Availability Analysis</h3>
 
-- Number of reviews
-- Reviews per month
-- Review ratings
+<p>
+Property availability was analyzed using the
+<code>availability_365</code> feature.
+</p>
 
-The analysis helps identify patterns in customer engagement and property popularity.
+<p><b>Key Finding:</b></p>
 
----
+<p>
+🏆 <b>Hotel room</b> has the highest average availability.
+</p>
 
-## Availability Analysis
+<hr>
 
-The availability of Airbnb properties was analyzed using the `availability_365` feature.
+<h3>👤 Host Verification Analysis</h3>
 
-### Key Finding
+<p>
+Verified and unconfirmed hosts were compared based on average pricing
+and average number of reviews.
+</p>
 
-**Hotel room** has the highest average availability.
+<table>
+  <tr>
+    <th>Host Verification</th>
+    <th>Average Price</th>
+    <th>Average Reviews</th>
+  </tr>
 
----
+  <tr>
+    <td>Unconfirmed</td>
+    <td>626.63</td>
+    <td>27.54</td>
+  </tr>
 
-## Host Verification Analysis
+  <tr>
+    <td>Verified</td>
+    <td>623.86</td>
+    <td>27.32</td>
+  </tr>
+</table>
 
-Verified and non-verified hosts were compared based on average price and average number of reviews.
+<br>
 
-### Results
+<p><b>Key Finding:</b></p>
 
-| Host Verification | Average Price | Average Reviews |
-|---|---:|---:|
-| Unconfirmed | 626.63 | 27.54 |
-| Verified | 623.86 | 27.32 |
+<p>
+Verified and unconfirmed hosts show only minimal differences in
+average pricing and reviews.
+</p>
 
-### Key Finding
+<hr>
 
-The analysis shows only **small differences** in average price and average reviews between verified and non-verified hosts.
+<h2>💡 Key Insights</h2>
 
----
+<ol>
+  <li>The dataset contains <b>102,599 Airbnb listings</b>.</li>
 
-# Key Insights
+  <li>
+    <b>Entire home/apt</b> is the most common room type.
+  </li>
 
-1. The dataset contains **102,599 Airbnb listings**.
+  <li>
+    <b>Bedford-Stuyvesant</b> has the highest number of Airbnb listings.
+  </li>
 
-2. **Entire home/apt** is the most common room type.
+  <li>
+    <b>Queens</b> has the highest average Airbnb price among neighbourhood groups.
+  </li>
 
-3. **Bedford-Stuyvesant** has the highest number of Airbnb listings.
+  <li>
+    <b>Hotel room</b> has the highest average price among room types.
+  </li>
 
-4. **Queens** has the highest average Airbnb price among neighbourhood groups.
+  <li>
+    <b>Hotel room</b> has the highest average availability.
+  </li>
 
-5. **Hotel room** has the highest average price among room types.
+  <li>
+    Verified and unconfirmed hosts show only minimal differences
+    in average pricing and reviews.
+  </li>
+</ol>
 
-6. **Hotel room** has the highest average availability.
+<hr>
 
-7. Verified and non-verified hosts show only **minimal differences in pricing and average reviews**.
+<h2>📈 Visualizations</h2>
 
----
+<p>The project includes visualizations related to:</p>
 
-# Visualizations
+<ul>
+  <li>Room Type Distribution</li>
+  <li>Top 10 Neighbourhoods</li>
+  <li>Average Price by Room Type</li>
+  <li>Price Distribution</li>
+  <li>Review Analysis</li>
+  <li>Availability Analysis</li>
+</ul>
 
-The project includes visualizations for:
+<p>
+Visualizations are available in the
+<code>images</code> folder.
+</p>
 
-- Room type distribution
-- Airbnb pricing analysis
-- Neighbourhood analysis
-- Price comparison by room type
-- Review analysis
-- Availability analysis
-- Host verification analysis
+<hr>
 
-Visualizations are available in the `images` folder.
+<h2>📂 Project Structure</h2>
 
----
-
-# Repository Structure
-
-```text
+<pre>
 Airbnb-Data-Analysis/
 │
 ├── Airbnb_Hotel_Booking_Data_Analysis.ipynb
@@ -245,3 +335,37 @@ Airbnb-Data-Analysis/
 │
 └── presentation/
     └── Airbnb_Data_Analysis_Presentation.pptx
+</pre>
+
+<hr>
+
+<h2>📌 Conclusion</h2>
+
+<p>
+This project demonstrates how Exploratory Data Analysis can be used
+to identify meaningful patterns in Airbnb listing data.
+</p>
+
+<p>
+The analysis highlights the relationship between room types, pricing,
+location, availability, reviews, and host characteristics.
+</p>
+
+<p>Through this project, the following skills were applied:</p>
+
+<ul>
+  <li>Data Cleaning</li>
+  <li>Data Analysis</li>
+  <li>Data Visualization</li>
+  <li>Python Programming</li>
+  <li>Pandas</li>
+  <li>Exploratory Data Analysis</li>
+</ul>
+
+<hr>
+
+<h2>👨‍💻 Author</h2>
+
+<p>
+<b>Avx Sharma</b>
+</p>
