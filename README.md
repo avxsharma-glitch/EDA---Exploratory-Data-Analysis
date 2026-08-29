@@ -38,11 +38,23 @@
     </td>
     <td>Python, Pandas, Matplotlib, Seaborn</td>
   </tr>
+
+  <tr>
+    <td><b>Healthcare Analytics for Doctor Visits</b></td>
+    <td>
+      Exploratory analysis of healthcare data to examine the
+      factors associated with doctor visits, including age,
+      income, illness, health status, reduced activity,
+      insurance, and chronic conditions.
+    </td>
+    <td>Python, Pandas, NumPy, Matplotlib, Seaborn</td>
+  </tr>
+
 </table>
 
-<br>
+<hr>
 
-<h3>🏠 Airbnb Data Analysis</h3>
+<h2>🏠 Airbnb Data Analysis</h2>
 
 <ul>
   <li>Pricing Analysis</li>
@@ -59,6 +71,32 @@
 
 <hr>
 
+<h2>🏥 Healthcare Analytics for Doctor Visits</h2>
+
+<ul>
+  <li>Data Cleaning and Preparation</li>
+  <li>Doctor Visits Distribution Analysis</li>
+  <li>Gender and Age Analysis</li>
+  <li>Illness and Health Status Analysis</li>
+  <li>Income Analysis</li>
+  <li>Private Insurance Analysis</li>
+  <li>Correlation Analysis</li>
+</ul>
+
+<p><b>Key Finding:</b></p>
+
+<p>
+  Reduced activity showed the strongest positive correlation with
+  doctor visits (0.403), followed by illness and health-related factors.
+  Income showed a very weak negative correlation with doctor visits.
+</p>
+
+<p>
+  📂 <a href="./Healthcare-Analytics-Doctor-Visits/">View Project</a>
+</p>
+
+<hr>
+
 <h2>📂 Repository Structure</h2>
 
 <pre>
@@ -69,9 +107,27 @@ EDA---Exploratory-Data-Analysis/
 ├── Airbnb-Data-Analysis/
 │   ├── Airbnb_Hotel_Booking_Data_Analysis.ipynb
 │   ├── README.md
-│   ├── Data/
+│   ├── data/
 │   ├── images/
 │   └── presentations/
+│
+└── Healthcare-Analytics-Doctor-Visits/
+    ├── data/
+    │   └── healthcare_doctor_visits.csv
+    │
+    ├── images/
+    │   ├── doctor_visits_distribution.png
+    │   ├── visits_by_gender.png
+    │   ├── age_vs_visits.png
+    │   ├── illness_vs_visits.png
+    │   ├── health_vs_visits.png
+    │   ├── income_vs_visits.png
+    │   ├── private_insurance_vs_visits.png
+    │   └── correlation_heatmap.png
+    │
+    ├── healthcare_analysis.ipynb
+    ├── README.md
+    └── requirements.txt
 </pre>
 
 <hr>
@@ -91,7 +147,7 @@ projects using different real-world datasets.
   <li>Exploratory analysis</li>
   <li>Data visualizations</li>
   <li>Key insights</li>
-  <li>Project presentation</li>
+  <li>Project documentation</li>
 </ul>
 
 <hr>
