@@ -72,6 +72,24 @@ EDA---Exploratory-Data-Analysis/
 │   ├── Data/
 │   ├── images/
 │   └── presentations/
+│
+└── Healthcare-Analytics-Doctor-Visits/
+    ├── data/
+    │   └── healthcare_doctor_visits.csv
+    │
+    ├── images/
+    │   ├── doctor_visits_distribution.png
+    │   ├── visits_by_gender.png
+    │   ├── age_vs_visits.png
+    │   ├── illness_vs_visits.png
+    │   ├── health_vs_visits.png
+    │   ├── income_vs_visits.png
+    │   ├── private_insurance_vs_visits.png
+    │   └── correlation_heatmap.png
+    │
+    ├── healthcare_analysis.ipynb
+    ├── README.md
+    └── requirements.txt
 </pre>
 
 <hr>
