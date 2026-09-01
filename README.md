@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Projects-4-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Projects-5-blue?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Python-Data%20Analysis-yellow?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge" />
 </p>
@@ -41,8 +41,9 @@
     <td>01</td>
     <td><b>🏠 Airbnb Data Analysis</b></td>
     <td>
-      Analysis of Airbnb listings including pricing, room types,
-      neighbourhoods, reviews, and availability.
+      Exploratory analysis of Airbnb listings including pricing,
+      room types, neighbourhoods, reviews, availability,
+      and host verification.
     </td>
     <td>Python, Pandas, Matplotlib, Seaborn</td>
   </tr>
@@ -77,6 +78,17 @@
     <td>Python, Pandas, NumPy, Matplotlib, Seaborn</td>
   </tr>
 
+  <tr>
+    <td>05</td>
+    <td><b>🛒 Superstore Sales Analysis</b></td>
+    <td>
+      Exploratory analysis of Superstore sales data to identify
+      sales trends, profit patterns, customer segments,
+      product performance, and regional insights.
+    </td>
+    <td>Python, Pandas, NumPy, Matplotlib, Seaborn</td>
+  </tr>
+
 </table>
 
 <hr>
@@ -84,8 +96,8 @@
 <h2>🏠 Airbnb Data Analysis</h2>
 
 <p>
-  Exploratory analysis of Airbnb listings to understand market trends
-  and customer preferences.
+  Exploratory analysis of Airbnb listings to understand market trends,
+  pricing patterns, and customer preferences.
 </p>
 
 <h3>📌 Key Analysis Areas</h3>
@@ -108,8 +120,8 @@
 <h2>🚗 Car Market Analysis</h2>
 
 <p>
-  Exploratory analysis of automobile market data to identify patterns
-  in vehicle pricing and market characteristics.
+  Exploratory analysis of automobile market data to identify
+  vehicle pricing patterns and important market characteristics.
 </p>
 
 <h3>📌 Key Analysis Areas</h3>
@@ -182,7 +194,8 @@
 </ul>
 
 <p>
-  📂 <a href="./Global%20Terrorism%20Patterns%20%26%20Trends/">
+  📂
+  <a href="./Global%20Terrorism%20Patterns%20%26%20Trends/">
     View Project
   </a>
 </p>
@@ -192,18 +205,17 @@
 <h2>🏥 Healthcare Analytics for Doctor Visits</h2>
 
 <p>
-  Exploratory analysis of healthcare data to understand the factors
-  associated with doctor visits.
+  Exploratory analysis of healthcare data to understand the
+  factors associated with doctor visits.
 </p>
 
 <h3>📌 Key Analysis Areas</h3>
 
 <ul>
   <li>Data Cleaning and Preparation</li>
-  <li>Doctor Visits Distribution</li>
-  <li>Gender Analysis</li>
-  <li>Age Analysis</li>
-  <li>Illness and Health Status</li>
+  <li>Doctor Visits Distribution Analysis</li>
+  <li>Gender and Age Analysis</li>
+  <li>Illness and Health Status Analysis</li>
   <li>Income Analysis</li>
   <li>Private Insurance Analysis</li>
   <li>Chronic Condition Analysis</li>
@@ -220,9 +232,47 @@
 </p>
 
 <p>
-  📂 <a href="./Healthcare-Analytics-Doctor-Visits/">
-    View Project
-  </a>
+  📂 <a href="./HealthCare/">View Project</a>
+</p>
+
+<hr>
+
+<h2>🛒 Superstore Sales Analysis</h2>
+
+<p>
+  Exploratory analysis of Superstore sales data to understand
+  business performance, profitability, customer behaviour,
+  product categories, and regional trends.
+</p>
+
+<h3>📊 Key Metrics Analyzed</h3>
+
+<ul>
+  <li>Sales</li>
+  <li>Profit</li>
+  <li>Quantity</li>
+  <li>Discount</li>
+  <li>Orders</li>
+  <li>Customer Segments</li>
+</ul>
+
+<h3>📈 Key Analysis Areas</h3>
+
+<ul>
+  <li>Sales Performance Analysis</li>
+  <li>Profit Analysis</li>
+  <li>Category-wise Sales Analysis</li>
+  <li>Sub-Category Performance</li>
+  <li>Regional Sales Analysis</li>
+  <li>Customer Segment Analysis</li>
+  <li>Shipping Mode Analysis</li>
+  <li>Monthly and Yearly Sales Trends</li>
+  <li>Top Performing Products</li>
+  <li>Discount vs Profit Analysis</li>
+</ul>
+
+<p>
+  📂 <a href="./Superstore/">View Project</a>
 </p>
 
 <hr>
@@ -262,16 +312,20 @@ EDA---Exploratory-Data-Analysis/
 │   │   ├── 10_top_countries_score.png
 │   │   ├── 11_fatality_rate.png
 │   │   └── 12_correlation_heatmap.png
-│   │
 │   ├── global_terrorism_analysis.ipynb
 │   └── README.md
 │
-└── Healthcare-Analytics-Doctor-Visits/
+├── HealthCare/
+│   ├── data/
+│   ├── images/
+│   ├── healthcare_analysis.ipynb
+│   └── README.md
+│
+└── Superstore/
     ├── data/
     ├── images/
-    ├── healthcare_analysis.ipynb
-    ├── README.md
-    └── requirements.txt
+    ├── superstore_analysis.ipynb
+    └── README.md
 </pre>
 
 <hr>
@@ -279,7 +333,7 @@ EDA---Exploratory-Data-Analysis/
 <h2>🎯 Purpose</h2>
 
 <p>
-  This repository documents and showcases Exploratory Data Analysis
+  This repository documents and showcases multiple Exploratory Data Analysis
   projects using different real-world datasets.
 </p>
 
@@ -308,6 +362,8 @@ EDA---Exploratory-Data-Analysis/
   <li>Trend Analysis</li>
   <li>Correlation Analysis</li>
   <li>Comparative Analysis</li>
+  <li>Business Analytics</li>
+  <li>Data Visualization</li>
   <li>Line Charts</li>
   <li>Bar Charts</li>
   <li>Scatter Plots</li>
@@ -319,7 +375,7 @@ EDA---Exploratory-Data-Analysis/
 <h2 align="center">👨‍💻 Author</h2>
 
 <p align="center">
-  <b>Aryan Vishwakarma</b>
+  <b>Aryan Vishwakarma </b>
 </p>
 
 <p align="center">
